@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom';
 import './App.css'
 
 const App = () => {
@@ -9,7 +10,7 @@ const App = () => {
       <nav>
         <ul>
           <li>
-            <a href="profile">Profile page</a>
+            <Link to="profile">Profile Pages</Link>
           </li>
         </ul>
       </nav>
