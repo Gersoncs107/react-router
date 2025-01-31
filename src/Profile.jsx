@@ -1,3 +1,7 @@
+import { useParams } from "react-router-dom"
+import DefaultProfile from "./DefaultProfile"
+import Spinatch from "./Spinach"
+import Popeye from "./Popeye"
 import { Outlet } from "react-router-dom"
 
 const Profile = () => {
