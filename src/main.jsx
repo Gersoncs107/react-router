@@ -14,13 +14,8 @@ const router = createBrowserRouter([
     element: <App/>
   },
   {
-    path: "profile",
-    element: <Profile/>,
-    children: [
-      {index: true, element:<DefaultProfile/>},
-      {path:"spinatch", element: <Spinatch/>},
-      {path:"popeye", element:<Popeye/>}
-    ]
+    path: "profile/:name",
+    element: <Profile/>
   }
 ])
 
