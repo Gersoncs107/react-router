@@ -2,7 +2,6 @@ import { useParams } from "react-router-dom"
 import DefaultProfile from "./DefaultProfile"
 import Spinatch from "./Spinach"
 import Popeye from "./Popeye"
-import { Outlet } from "react-router-dom"
 
 const Profile = () => {
     return(
@@ -11,7 +10,7 @@ const Profile = () => {
             <p>So, how are you?</p>
             <hr />
             <h2>The profile visited is here:</h2>
-            <Outlet/>
+            
         </div>
     )
 }
