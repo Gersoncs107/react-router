@@ -5,17 +5,7 @@ import './App.css'
 import './index.css'
 import routes from "./routes";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "profile/:name",
-    element: <Profile />,
-  },
-]);
+const router = createBrowserRouter(routes);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
