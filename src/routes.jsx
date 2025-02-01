@@ -13,3 +13,5 @@ const routes = [
     element: <Profile />,
   },
 ];
+
+export default routes
