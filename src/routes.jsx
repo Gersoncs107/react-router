@@ -2,7 +2,7 @@ import App from "./App";
 import Profile from "./Profile";
 import ErrorPage from "./ErrorPage";
 
-const router = createBrowserRouter([
+const routes = [
   {
     path: "/",
     element: <App />,
@@ -12,4 +12,4 @@ const router = createBrowserRouter([
     path: "profile/:name",
     element: <Profile />,
   },
-]);
+];
